@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)),url("slika.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 25px;
+    margin: 20px;
+    border-radius: 10px;
+    
+    
+}
+
+ul li:first-child {
+    font-weight: bold;
+}
+
+form {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    color: white;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
